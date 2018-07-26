@@ -1,0 +1,22 @@
+body {
+  background-color: burlywood;
+  font-size: 2em;
+}
+
+.number-input {
+  font-size: 1em;
+  padding: 8px;
+}
+
+.main {
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.top,
+.bottom {
+  margin-bottom: 30px;
+}

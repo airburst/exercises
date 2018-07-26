@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
+  <link href='../styles.css' rel='stylesheet' type='text/css'>
+  <link href='button.css' rel='stylesheet' type='text/css'>
+  <link href='local.css' rel='stylesheet' type='text/css'>
+  <script src="averages.js"></script>
+  <title>Averages</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="title">Averages</div>
+    <div class="input">
+      <textarea class="numbers-input" rows="8" id="numbers"></textarea>
+    </div>
+    <div class="actions">
+      <button class="btn red" type="button" onclick="calculate()">Calculate</button>
+    </div>
+    <div class="result-grid">
+      <div class="label">Total</div>
+      <div id="total">0</div>
+      <div class="label">Range</div>
+      <div id="range">0</div>
+      <div class="label">Count</div>
+      <div id="count">0</div>
+      <div class="label">Mean</div>
+      <div id="mean">0</div>
+      <div class="label">Median</div>
+      <div id="median">0</div>
+      <div class="label">Mode</div>
+      <div id="mode">0</div>
+    </div>
+  </div>
+</body>
+
+</html>

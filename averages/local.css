@@ -1,0 +1,38 @@
+body {
+  position: absolute;
+  background-color: #123597;
+  background-image: linear-gradient( 340deg, #97ABFF 10%, #123597 100%);
+  color: white;
+  font-size: 2em;
+}
+
+.main {
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.numbers-input {
+  font-size: 1em;
+  width: 100%;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.actions .btn {
+  font-size: 1em;
+  padding: 8px 16px;
+}
+
+.result-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 200px 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
