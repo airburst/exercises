@@ -5,7 +5,6 @@ const get = selector => document.getElementById(selector);
 const getText = selector => get(selector).value;
 const set = (selector, value) => document.getElementById(selector).innerHTML = value;
 const setValue = (selector, value) => document.getElementById(selector).value = value;
-// const flatten = arr => [].concat.apply([], arr);
 
 /*
 1 2 3 4
